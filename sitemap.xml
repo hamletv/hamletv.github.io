@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hamletv.github.io/project/project1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/post/web-accessibility/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/accessibility/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/go/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/golang/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/hugo/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/mozilla/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/post/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/screen-readers/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/tesseract.js/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
