@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hamletv.github.io/project/project1/</loc>
+    <loc>https://hamletv.github.io/project/orphanage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/post/ocr-with-tesseract/</loc>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,7 +18,7 @@
   
   <url>
     <loc>https://hamletv.github.io/tags/accessibility/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -39,19 +44,19 @@
   
   <url>
     <loc>https://hamletv.github.io/tags/mozilla/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hamletv.github.io/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hamletv.github.io/post/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,19 +67,19 @@
   
   <url>
     <loc>https://hamletv.github.io/tags/screen-readers/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hamletv.github.io/tags/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hamletv.github.io/tags/tesseract.js/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
