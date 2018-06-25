@@ -6,6 +6,7 @@
     <description>Recent content in Tags on Mozilla A11y</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Mon, 11 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hamletv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -17,6 +18,15 @@
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/tags/accessibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aria Describedby</title>
+      <link>https://hamletv.github.io/tags/aria-describedby/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hamletv.github.io/tags/aria-describedby/</guid>
       <description></description>
     </item>
     
@@ -50,9 +60,18 @@
     <item>
       <title>Mozilla</title>
       <link>https://hamletv.github.io/tags/mozilla/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/tags/mozilla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ocr</title>
+      <link>https://hamletv.github.io/tags/ocr/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hamletv.github.io/tags/ocr/</guid>
       <description></description>
     </item>
     

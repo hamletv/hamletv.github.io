@@ -23,6 +23,12 @@
   </url>
   
   <url>
+    <loc>https://hamletv.github.io/tags/aria-describedby/</loc>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hamletv.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -44,12 +50,18 @@
   
   <url>
     <loc>https://hamletv.github.io/tags/mozilla/</loc>
-    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hamletv.github.io/</loc>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/ocr/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

@@ -6,19 +6,11 @@
     <description>Recent content in Mozilla on Mozilla A11y</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 28 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hamletv.github.io/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Implementing Tesseract.js to OCR image content</title>
-      <link>https://hamletv.github.io/post/ocr-with-tesseract/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hamletv.github.io/post/ocr-with-tesseract/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>The Importance of Web Accessibility</title>
