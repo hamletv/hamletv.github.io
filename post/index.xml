@@ -18,7 +18,7 @@
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/post/image-a11y-proof-of-concept/</guid>
-      <description>Running the Code The gif above is tesseract.js at work. It is scanning an image available online and it outputs (hopefully) legible text into the console, an alert window, a new div within your page or for my purposes: an invisible paragraph tag. This gif is from the port&amp;rsquo;s repo on Github and that is what I need to accomplish and have it perform in any page the extension is activated on.</description>
+      <description>Running the Code The gif above is tesseract.js at work. It is scanning an image available online and it outputs text into a new div, for my purposes it will be an invisible paragraph tag. This gif is from the port&amp;rsquo;s repo on Github and that is what I need to accomplish and have it perform in any page the extension is activated on. The project is as I&amp;rsquo;ve said to myself and to others, not overly challenging&amp;hellip;I&amp;rsquo;m sure I will come to regret spreading that inaccuracy (I already do, hence the title of the next section).</description>
     </item>
     
     <item>
