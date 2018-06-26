@@ -169,7 +169,7 @@
 
 <h2 id="project-scope">Project Scope</h2>
 
-<p>Traditionally and exclusively images are made accessible solely by adding an <a href="https://www.w3schools.com/tags/att_img_alt.asp">alt attribute</a> to the <img> tag in the <a href="https://en.wikipedia.org/wiki/HTML">HTML</a>, that contains a brief description of the image, should the image not be able to display or for our purposes, not be seen. However, even this small a11y addition is frequently omitted. It would be nice to have a tool to automatically add that all important attribute to images with an accurate description, maybe it&rsquo;s out there already, I don&rsquo;t know. Disabled users and the field of web accessibility could certainly use all the help they can to improve content access. Image A11y will ultimately be a Firefox JavaScript based extension that will ideally improve access, even if it&rsquo;s just a little.</p>
+<p>Traditionally and exclusively images are made accessible solely by adding an <a href="https://www.w3schools.com/tags/att_img_alt.asp">alt attribute</a> to the image tag in the <a href="https://en.wikipedia.org/wiki/HTML">HTML</a>, that contains a brief description of the image, should the image not be able to display or for our purposes, not be seen. However, even this small a11y addition is frequently omitted. It would be nice to have a tool to automatically add that all important attribute to images with an accurate description, maybe it&rsquo;s out there already, I don&rsquo;t know. Disabled users and the field of web accessibility could certainly use all the help they can to improve content access. Image A11y will ultimately be a Firefox JavaScript based extension that will ideally improve access, even if it&rsquo;s just a little.</p>
 
 <h3 id="high-level-overview-steps-needed-to-make-this-happen">High level overview/steps needed to make this happen:</h3>
 
@@ -177,9 +177,9 @@
 
 <p>• With the images collected and in an array, set a function that will loop through each image and feed that image into Tesseract for scanning. I&rsquo;ve noticed the speed of scanning is dependent on a number of variables such as size of text, font used, space between letters and words, quality of the text within the image, background applied to text and possibly others. Tesseract scanning results are not perfect and these variables definitely affect results but even minor (a11y) improvement is improvement and iteration is our friend. Additionally, training of tesseract is possible but more on that hopefully in a later post.</p>
 
-<p>• Once scanned, immediately after rather than printing to the console I&rsquo;ll have the function create a <p> tag linked to that image to add that scanned text into. Remember that this text is for screen readers! The look of the site itself will not (should not) be altered at all, sighted users will not notice anything different if the extension is running. Rather this newly created <p> tag containing the scanned text will be invisible but it will alter the DOM, where the screen reader will do its work.</p>
+<p>• Once scanned, immediately after rather than printing to the console I&rsquo;ll have the function create a paragraph tag linked to that image to add that scanned text into. Remember that this text is for screen readers! The look of the site itself will not (should not) be altered at all, sighted users will not notice anything different if the extension is running. Rather this newly created paragraph tag containing the scanned text will be invisible but it will alter the DOM, where the screen reader will do its work.</p>
 
-<p>• Tag invisibility will be provided by <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute">aria-describedby</a> attribute but I would also like to test altering the style of the <p> tag by just not assigning a font-size to the tag or setting it to 0 px, that should also make it invisible.</p>
+<p>• Tag invisibility will be provided by <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute">aria-describedby</a> attribute but I would also like to test altering the style of the paragraph tag by just not assigning a font-size to the tag or setting it to 0 px, that should also make it invisible.</p>
 
 <p>Ultimately the goal is to build an extension that can be easily added and will hopefully improve accessibility of website images to screen reader users without a noticeable lag in information/content being passed to the screen reader.</p>
 
@@ -196,6 +196,30 @@
         <h4 class="page-header">Related</h4>
 
          <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/image-a11y-proof-of-concept/">Image A11y: proof of concept</a></h4>
+    <h5>June 25, 2018</h5>
+    
+    <a href="https://hamletv.github.io/tags/accessibility"><kbd class="item-tag">accessibility</kbd></a>
+    
+    <a href="https://hamletv.github.io/tags/tesseract.js"><kbd class="item-tag">tesseract.js</kbd></a>
+    
+    <a href="https://hamletv.github.io/tags/ocr"><kbd class="item-tag">ocr</kbd></a>
+    
+    <a href="https://hamletv.github.io/tags/screen-readers"><kbd class="item-tag">screen readers</kbd></a>
+    
+    <a href="https://hamletv.github.io/tags/aria-describedby"><kbd class="item-tag">aria-describedby</kbd></a>
+    
+
+</div>
+  <div class="item">
 
     
     

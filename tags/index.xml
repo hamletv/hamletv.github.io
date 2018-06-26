@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 11 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hamletv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Accessibility</title>
       <link>https://hamletv.github.io/tags/accessibility/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/tags/accessibility/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Aria Describedby</title>
       <link>https://hamletv.github.io/tags/aria-describedby/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/tags/aria-describedby/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Ocr</title>
       <link>https://hamletv.github.io/tags/ocr/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/tags/ocr/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Screen Readers</title>
       <link>https://hamletv.github.io/tags/screen-readers/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/tags/screen-readers/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>Tesseract.js</title>
       <link>https://hamletv.github.io/tags/tesseract.js/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/tags/tesseract.js/</guid>
       <description></description>

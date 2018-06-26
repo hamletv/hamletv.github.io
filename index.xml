@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 11 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hamletv.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       
       <guid>https://hamletv.github.io/project/orphanage/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Image A11y: proof of concept</title>
+      <link>https://hamletv.github.io/post/image-a11y-proof-of-concept/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hamletv.github.io/post/image-a11y-proof-of-concept/</guid>
+      <description>Running the Code The image above is tesseract.js at work. It is scanning an image available online and it outputs (hopefully) legible text into the console, an alert window, a new div within your page or for my purposes: an invisible paragraph tag. This image is from the port&amp;rsquo;s repo on Github and that is what I need to accomplish and have it perform in any page the extension is activated on.</description>
     </item>
     
     <item>

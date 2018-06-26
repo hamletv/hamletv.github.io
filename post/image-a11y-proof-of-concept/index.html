@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The Importance of Web Accessibility</title>
+        <title>Image A11y: proof of concept</title>
         
         <style>
 
@@ -80,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">The Importance of Web Accessibility</a>
+                    <a class="navbar-brand visible-xs" href="#">Image A11y: proof of concept</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -138,16 +138,18 @@
     
     
 
-    <h4><a href="/post/web-accessibility/">The Importance of Web Accessibility</a></h4>
-    <h5>May 28, 2018</h5>
+    <h4><a href="/post/image-a11y-proof-of-concept/">Image A11y: proof of concept</a></h4>
+    <h5>June 25, 2018</h5>
     
     <a href="https://hamletv.github.io/tags/accessibility"><kbd class="item-tag">accessibility</kbd></a>
     
     <a href="https://hamletv.github.io/tags/tesseract.js"><kbd class="item-tag">tesseract.js</kbd></a>
     
-    <a href="https://hamletv.github.io/tags/mozilla"><kbd class="item-tag">Mozilla</kbd></a>
+    <a href="https://hamletv.github.io/tags/ocr"><kbd class="item-tag">ocr</kbd></a>
     
     <a href="https://hamletv.github.io/tags/screen-readers"><kbd class="item-tag">screen readers</kbd></a>
+    
+    <a href="https://hamletv.github.io/tags/aria-describedby"><kbd class="item-tag">aria-describedby</kbd></a>
     
 
 </div>
@@ -155,19 +157,17 @@
 
     <br> <div class="text-justify">
 
-<p><img src="https://www.gavinadvertising.com/orangejuice/wp-content/uploads/2018/01/accessibility-hero.jpg" alt="keyboard with blue accessibility return key" /></p>
+<p><img src="https://github.com/naptha/tesseract.js/raw/master/demo.gif" alt="Ocr scan of image with text, ouput into legible text" /></p>
 
-<h2 id="web-accessibility">Web Accessibility</h2>
+<h2 id="running-the-code">Running the Code</h2>
 
-<p>Whenever I start describing the concept of web accessibility to people not very familiar with the topic, I give them a metaphor. Web accessibility is the practice of making online content accessible to people with a disability or disabilities that prevent them from accessing, viewing, listening, interacting with that content. The disability could be and very often is visual —anyone visually impaired or completely blind, or as I realized much later through my son’s friend’s mom, anyone that is color blind, like her little boy; people that suffer from <a href="https://en.wikipedia.org/wiki/Photosensitive_epilepsy">photosensitive epilepsy</a> can have seizures triggered by visual stimuli; auditory —anyone that is partially or completely deaf; physical —anyone that does not have the motor skills/abilities to use a mouse and/or keyboard (arthritis comes to mind) or just does not have use of their limbs <a href="https://en.wikipedia.org/wiki/Amyotrophic_lateral_sclerosis">—ALS/Lou Gehrig’s disease</a>, muscular dystrophy or amputation.</p>
+<p>The image above is tesseract.js at work. It is scanning an image available online and it outputs (hopefully) legible text into the console, an alert window, a new div within your page or for my purposes: an invisible paragraph tag. This image is from the port&rsquo;s <a href="https://github.com/naptha/tesseract.js#tesseractjs">repo</a> on <a href="https://www.github.com">Github</a> and that is what I need to accomplish and have it perform in any page the extension is activated on. The project is as I&rsquo;ve said to myself and to others tentatively, not terribly challenging&hellip;I&rsquo;m sure I will come to regret spreading that bold-faced lie (I do), hence the title of the next section. Nevertheless, I&rsquo;ve decided to run with that (bad) assumption as it now effortlessly rolls out of my mouth whenever I&rsquo;m discussing this project. Tesseract is doing the heavy lifting after all; there are numerous lines of code that make up the API that regardless of the accuracy of the output (not always very good), it still is in my opinion sort of code magic! Yes, I know OCR scanning has been around for ages, it&rsquo;s not machine learning, AI, a self driving car or anything hot and trendy but it is still a cool thing.</p>
 
-<p>Online content is made accessible to people with disabilities through various ways, technology and devices being the main tools. This blog and the work I will be performing with <a href="https://en.wikipedia.org/wiki/Outreachy">Outreachy</a> and <a href="https://en.wikipedia.org/wiki/Mozilla">Mozilla</a> will help to address the improvement and proliferation of web accessibility (a11y) through code. I was introduced to web a11y a little over a year ago, and like most I only had a passing impression as to what it is. Matthew Brandt, my mentor and team lead who has been with me since day one at Mozilla, introduced me to the field and has been incredibly supportive, patient and helpful as I gain knowledge in the field. Yura Zenevich who has also been incredibly helpful, supportive and patient is my second mentor whom I will lean heavily on things JavaScript and web a11y as I take on the project.</p>
+<h2 id="problems-encountered">Problems Encountered</h2>
 
-<p>The project will aim to improve a11y of image content on the web. Without getting too technical (for now) the scope of the project is to scan text within in images, text that has typically been inaccessible to screen reader (visually impaired) users on a website. More specifically we will use a <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> library, <a href="https://github.com/tesseract-ocr/tesseract">Tesseract.js</a> to OCR scan text from images like memes, diagrams, scanned documents, comics and others, content that has generally not been made available in current efforts to improve web a11y. This content will then be added to the document object model (DOM) of a website so that it is viewed by the screen reader but not by sighted users. This, combined with the alt attribute description of images (what has been traditionally provided for improved a11y of images) will ultimately help to improve image and therefore make web content more accessible to the visually impaired. The end result of the project will hopefully be a Firefox extension that can be added by the user.</p>
+<h2 id="promising-solution">Promising Solution</h2>
 
-<p>And now let’s go back to the beginning…what was that metaphor you wondered or are hopefully still wondering about? Well, think of a building, let’s make it a large building (a hotel, hospital, school or office building) with lots of people coming and going and traversing through its halls, rooms and floors. And unlike most buildings this building you’re thinking of does not have wheelchair ramps, elevators, wide enough doorways, easily grasped door handles, lowered water fountains, wheelchair accessible bathrooms and myriad other features that many and all modern buildings are legally bound to have.</p>
-
-<p>Not many large buildings like this hypothetical building exist out there, at least not here in the U.S. or at least I’d hope not. Now picture yourself needing to enter and get around this building in a wheelchair. Not so easy for many people or even doable at all for this particular case. The building is not accessible to you without certain, important, essential(!) features. This metaphor paints a clear correlation in my opinion to web accessibility. That being the case you probably owe it to yourself to take a closer look into web accessibility, the numbers, what’s being done to improve it, how much more work needs to be done and how far it has come. I have, and even though I’ve only scratched the surface, I already see the internet and its offerings with a whole new set of more critical and hopeful eyes.</p>
+<h2 id="next-steps">Next steps</h2>
 </div>
 
     
@@ -186,8 +186,8 @@
     
     
 
-    <h4><a href="/post/image-a11y-proof-of-concept/">Image A11y: proof of concept</a></h4>
-    <h5>June 25, 2018</h5>
+    <h4><a href="/post/ocr-with-tesseract/">Image A11y: background, tesseract.js and scope</a></h4>
+    <h5>June 11, 2018</h5>
     
     <a href="https://hamletv.github.io/tags/accessibility"><kbd class="item-tag">accessibility</kbd></a>
     
@@ -210,18 +210,16 @@
     
     
 
-    <h4><a href="/post/ocr-with-tesseract/">Image A11y: background, tesseract.js and scope</a></h4>
-    <h5>June 11, 2018</h5>
+    <h4><a href="/post/web-accessibility/">The Importance of Web Accessibility</a></h4>
+    <h5>May 28, 2018</h5>
     
     <a href="https://hamletv.github.io/tags/accessibility"><kbd class="item-tag">accessibility</kbd></a>
     
     <a href="https://hamletv.github.io/tags/tesseract.js"><kbd class="item-tag">tesseract.js</kbd></a>
     
-    <a href="https://hamletv.github.io/tags/ocr"><kbd class="item-tag">ocr</kbd></a>
+    <a href="https://hamletv.github.io/tags/mozilla"><kbd class="item-tag">Mozilla</kbd></a>
     
     <a href="https://hamletv.github.io/tags/screen-readers"><kbd class="item-tag">screen readers</kbd></a>
-    
-    <a href="https://hamletv.github.io/tags/aria-describedby"><kbd class="item-tag">aria-describedby</kbd></a>
     
 
 </div>
