@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Screenshots on Mozilla A11y</title>
+    <link>https://hamletv.github.io/tags/screenshots/</link>
+    <description>Recent content in Screenshots on Mozilla A11y</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 09 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hamletv.github.io/tags/screenshots/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demos, hurdles and demo hurdles</title>
+      <link>https://hamletv.github.io/posts/demos-and-hurdles/</link>
+      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hamletv.github.io/posts/demos-and-hurdles/</guid>
+      <description>Demo My script is running. Yes! Small victories regardless of project complexity are awesome. There&amp;rsquo;s nothing that makes one (at least me) feel more victorious than spending an inordinate amount of time on something that you feel shouldn&amp;rsquo;t have taken an inordinate amount of time and then finally overcoming the (temporary) hurdle. A won battle can momentarily feel like a conquered war. With the script now working and producing an actual result (and even a confidence percentage of the output printed), it was time to do a demo.</description>
+    </item>
+    
+  </channel>
+</rss>

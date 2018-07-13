@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hamletv.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,29 +22,38 @@
     </item>
     
     <item>
+      <title>Demos, hurdles and demo hurdles</title>
+      <link>https://hamletv.github.io/posts/demos-and-hurdles/</link>
+      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hamletv.github.io/posts/demos-and-hurdles/</guid>
+      <description>Demo My script is running. Yes! Small victories regardless of project complexity are awesome. There&amp;rsquo;s nothing that makes one (at least me) feel more victorious than spending an inordinate amount of time on something that you feel shouldn&amp;rsquo;t have taken an inordinate amount of time and then finally overcoming the (temporary) hurdle. A won battle can momentarily feel like a conquered war. With the script now working and producing an actual result (and even a confidence percentage of the output printed), it was time to do a demo.</description>
+    </item>
+    
+    <item>
       <title>Image A11y: proof of concept</title>
-      <link>https://hamletv.github.io/post/image-a11y-proof-of-concept/</link>
+      <link>https://hamletv.github.io/posts/image-a11y-proof-of-concept/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hamletv.github.io/post/image-a11y-proof-of-concept/</guid>
+      <guid>https://hamletv.github.io/posts/image-a11y-proof-of-concept/</guid>
       <description>Running the Code The gif above is tesseract.js at work. It is scanning an image available online and it outputs text into a new div, for my purposes it will be an invisible paragraph tag. This gif is from the port&amp;rsquo;s repo on Github and that is what I need to accomplish and have it perform in any page the extension is activated on. The project is as I&amp;rsquo;ve said to myself and to others, not overly challenging&amp;hellip;I&amp;rsquo;m sure I will come to regret spreading that inaccuracy (I already do, hence the title of the next section).</description>
     </item>
     
     <item>
       <title>Image A11y: background, tesseract.js and scope</title>
-      <link>https://hamletv.github.io/post/ocr-with-tesseract/</link>
+      <link>https://hamletv.github.io/posts/ocr-with-tesseract/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hamletv.github.io/post/ocr-with-tesseract/</guid>
+      <guid>https://hamletv.github.io/posts/ocr-with-tesseract/</guid>
       <description>Origins of Image A11y Simply put, the object of the Image A11y project is to improve web accessibility by making the content (specifically text) within images accessible to screen readers. The idea of Image A11y came about during the December 2016 Mozilla All Hands conference in Austin, TX. While giving a demo of an accessibility project I had worked on to the Mozilla accessibility team I was introduced to Project Naptha.</description>
     </item>
     
     <item>
       <title>The Importance of Web Accessibility</title>
-      <link>https://hamletv.github.io/post/web-accessibility/</link>
+      <link>https://hamletv.github.io/posts/web-accessibility/</link>
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hamletv.github.io/post/web-accessibility/</guid>
+      <guid>https://hamletv.github.io/posts/web-accessibility/</guid>
       <description>Web Accessibility Whenever I start describing the concept of web accessibility to people not very familiar with the topic, I give them a metaphor. Web accessibility is the practice of making online content accessible to people with a disability or disabilities that prevent them from accessing, viewing, listening, interacting with that content. The disability could be and very often is visual —anyone visually impaired or completely blind, or as I realized much later through my son’s friend’s mom, anyone that is color blind, like her little boy; people that suffer from photosensitive epilepsy can have seizures triggered by visual stimuli; auditory —anyone that is partially or completely deaf; physical —anyone that does not have the motor skills/abilities to use a mouse and/or keyboard (arthritis comes to mind) or just does not have use of their limbs —ALS/Lou Gehrig’s disease, muscular dystrophy or amputation.</description>
     </item>
     

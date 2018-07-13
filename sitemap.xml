@@ -7,17 +7,22 @@
   </url>
   
   <url>
-    <loc>https://hamletv.github.io/post/image-a11y-proof-of-concept/</loc>
+    <loc>https://hamletv.github.io/posts/demos-and-hurdles/</loc>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/posts/image-a11y-proof-of-concept/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hamletv.github.io/post/ocr-with-tesseract/</loc>
+    <loc>https://hamletv.github.io/posts/ocr-with-tesseract/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hamletv.github.io/post/web-accessibility/</loc>
+    <loc>https://hamletv.github.io/posts/web-accessibility/</loc>
     <lastmod>2018-05-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -35,6 +40,18 @@
   
   <url>
     <loc>https://hamletv.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/dom/</loc>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/extension/</loc>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -61,7 +78,7 @@
   
   <url>
     <loc>https://hamletv.github.io/</loc>
-    <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -72,8 +89,8 @@
   </url>
   
   <url>
-    <loc>https://hamletv.github.io/post/</loc>
-    <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    <loc>https://hamletv.github.io/posts/</loc>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,6 +102,12 @@
   <url>
     <loc>https://hamletv.github.io/tags/screen-readers/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/screenshots/</loc>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

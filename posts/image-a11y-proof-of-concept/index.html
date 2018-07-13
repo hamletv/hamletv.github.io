@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mozilla</title>
+        <title>Image A11y: proof of concept</title>
         
         <style>
 
@@ -61,12 +61,8 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.41" />
         
-        <link href="https://hamletv.github.io/tags/mozilla/index.xml" rel="alternate" type="application/rss+xml" title="Mozilla A11y" />
-        <link href="https://hamletv.github.io/tags/mozilla/index.xml" rel="feed" type="application/rss+xml" title="Mozilla A11y" />
-        
 
-	<link rel="alternate" type="application/rss+xml" href="https://hamletv.github.io/tags/mozilla/index.xml" title="Mozilla A11y" />
-
+	
     </head>
 
     
@@ -84,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Mozilla</a>
+                    <a class="navbar-brand visible-xs" href="#">Image A11y: proof of concept</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -133,9 +129,7 @@
 
 <main>
 
-    <h2>Mozilla</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -144,24 +138,56 @@
     
     
 
-    <h4><a href="/posts/web-accessibility/">The Importance of Web Accessibility</a></h4>
-    <h5>May 28, 2018</h5>
+    <h4><a href="/posts/image-a11y-proof-of-concept/">Image A11y: proof of concept</a></h4>
+    <h5>June 25, 2018</h5>
     
     <a href="https://hamletv.github.io/tags/accessibility"><kbd class="item-tag">accessibility</kbd></a>
     
     <a href="https://hamletv.github.io/tags/tesseract.js"><kbd class="item-tag">tesseract.js</kbd></a>
     
-    <a href="https://hamletv.github.io/tags/mozilla"><kbd class="item-tag">Mozilla</kbd></a>
+    <a href="https://hamletv.github.io/tags/ocr"><kbd class="item-tag">ocr</kbd></a>
     
     <a href="https://hamletv.github.io/tags/screen-readers"><kbd class="item-tag">screen readers</kbd></a>
     
+    <a href="https://hamletv.github.io/tags/aria-describedby"><kbd class="item-tag">aria-describedby</kbd></a>
+    
 
 </div>
- 
+
+
+    <br> <div class="text-justify">
+
+<p><img src="https://github.com/naptha/tesseract.js/raw/master/demo.gif" alt="Ocr scan of image with text, ouput into legible text" /></p>
+
+<h2 id="running-the-code">Running the Code</h2>
+
+<p>The gif above is tesseract.js at work. It is scanning an image available online and it outputs text into a new div, for my purposes it will be an invisible paragraph tag. This gif is from the port&rsquo;s <a href="https://github.com/naptha/tesseract.js#tesseractjs">repo</a> on <a href="https://www.github.com">Github</a> and that is what I need to accomplish and have it perform in any page the extension is activated on. The project is as I&rsquo;ve said to myself and to others, not overly challenging&hellip;I&rsquo;m sure I will come to regret spreading that inaccuracy (I already do, hence the title of the next section). Nevertheless, I&rsquo;ve decided to run with that assumption as it now effortlessly rolls out of my mouth whenever I&rsquo;m discussing the project. To be fair I&rsquo;ve only been stating this because Tesseract is doing the heavy lifting after all; there are numerous lines of code that make up the [API] that regardless of the accuracy of the output (not always very good), it still is in my opinion a little bit of code magic! Yes, OCR scanning has been around for ages, it&rsquo;s not machine learning, AI, a self driving car or anything hot and trendy but it is still a cool thing.</p>
+
+<p>How&rsquo;s does it work? Simply include the <a href="https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js">CDN</a> in script tags within the head of your HTML and add the bit of JavaScript below into another set of script tags and you&rsquo;re off&hellip;almost.
+<img src="tesseract_screenshot.png" alt="Tesseract recognize snippet" /><br />
+I went through these steps and nothing happened. I attempted to have the scanned text print to the console, pop up as an alert window, add it to the DOM, still nothing. Mild panic ensued as I realize I wasn&rsquo;t going to be ready for a demo I committed myself to.</p>
+
+<h2 id="problem-encountered">Problem Encountered</h2>
+
+<p>It turns out that running the code snippet above does not do the trick. There is a problem with this snippet that is not (to my knowledge) covered within the Tesseract documentation. I&rsquo;ll need to look through the issues some more. The problem, I came to realize is that Tesseract.js loads every image into a canvas tag prior to processing but if that image does not meet <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image">CORS</a> approval, the canvas tag immediately becomes &ldquo;tainted&rdquo; and any processing or pulling of data stops, end of the line. Errors arise in the console which are not initially welcomed but after the frustration subsides and a bit of calm settles in I can put them to use.</p>
+
+<h2 id="promising-solution">Promising Solution</h2>
+
+<p>A solution indeed thanks to some research and the awesome <a href="https://developer.mozilla.org/en-US/">MDN</a> documentation. As I mentioned above the canvas tag was becoming tainted, which returned an error. How to prevent the canvas tag from getting tainted? Create a new canvas tag, change the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-crossorigin">crossOrigin attribute</a> of the image and set it to &ldquo;anonymous&rdquo;. Refresh that page, check the console and voila, text from the image is printed on to the console.</p>
+
+<h2 id="next-steps">Next steps</h2>
+
+<p>Well, I have another demo this week. It&rsquo;s a brief demo showing the capabilities of tesseract, the potential use for a particular team within <a href="https://en.wikipedia.org/wiki/Firefox">Firefox</a> and the direction of my extension but the pressure is on regardless of brevity. The code is running and doing what I need it to do but I am still using the CDN and in the amount of time I have left I&rsquo;d like to set it up so that I can do the demo with the local files. Stay tuned&hellip;</p>
+</div>
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 
