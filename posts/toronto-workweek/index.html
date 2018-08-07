@@ -159,9 +159,18 @@
 
 <h2 id="what-s-involved">What&rsquo;s Involved</h2>
 
-<p>Prior to heading into Toronto there was a functionality to the project that I was happy with. Scanning was occurring, results were printing out and a confidence percentage was available. I knew that I&rsquo;d need to get that functionality on-demand by right clicking into the image but how to do that? A brief but not unrelated aside: one of the many take aways that I will have from working on this extension is how amazing a resource <a href="https://developer.mozilla.org/en-US/">MDN</a> is and how much I can depend on it, how many people use it and its ease of use.</p>
+<p>Prior to heading into Toronto there was a functionality to the project that I was happy with. Scanning was occurring, results were printing out and a confidence percentage was available. I knew that I&rsquo;d need to get that functionality on-demand by right clicking into the image but how to do that? A brief but not unrelated aside: one of the many take aways that I will have from working on this extension is how amazing a resource <a href="https://developer.mozilla.org/en-US/">MDN</a> is, how dependable it is for relevant information, details and its ease of use.
+The <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Context_menu_items">Context menu item</a> is the feature needed to achieve on-demand right click functionality that provides a drop down menu to put the extension in use. This was great news to discover but using it meant several things needed to happen.</p>
 
-<p><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Context_menu_items">Context menu item</a> is the feature to achieve on-demand right click functionality that provides a drop down menu to put the extension in use. This was great news to discover but using it meant needing to trach</p>
+<p>Tesseract was put to work in a <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension#Background_scripts">background script</a> since it would be doing long-term work, maintain long term state and load as soon as the extension is loaded and is enabled. With this change for tesseract, the manifest would need to be altered and permissions added for the background script. Additionally, because of the way the context menu feature works (now in the background script) the message (scanned results) and image information (srcUrl) needs to be moved out of the background script. Background scripts can not access webpages/DOM to which the message and srcUrl need to be passed to in order for them to be accessible to screen readers.</p>
+
+<p>Background scripts may not have access to webpages but they can load <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts">content scripts</a> and these do have access to webpages. Background and content scripts communicate to make the extension work. One (background) can access myriad <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API">web extension APIs</a> necessary to get tesseract in motion and the other can access and modify web content, the end goal of the extension.</p>
+
+<p>Last step of the process is enabling communication between those scripts. Communication is via a <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/connect">port</a> suitable for long term communication as opposed a one time connection. Listeners are available in both scripts and through this port the background script sends the scanning results message and srcUrl to the content script which in turn currently passes the text into the image for screen reader access.</p>
+
+<h2 id="what-s-next">What&rsquo;s next?</h2>
+
+<p>A lot has been accomplished but there&rsquo;s still plenty of work to do. There are multiple Github issues to work through and many more to add. The extension now needs a name! We&rsquo;ve decided that anything eagle, eagle eye related would be too boring and obvious. Most importantly the repo now needs to be moved into a Mozilla repo. Exciting stuff! I have one more week left in my project before the deadline. I&rsquo;m really happy with what we&rsquo;ve accomplished so far but I&rsquo;m really excited to continue working on and improving this project and possibly working on others.</p>
 
 <h2 id="how-it-all-works">How It All Works</h2>
 
@@ -177,7 +186,7 @@
 <p><img src="https://raw.githubusercontent.com/hamletv/Images/master/Image%20A11y/Screen%20Shot%202018-08-01%20at%2011.00.36%20PM.png" alt="Screenshot of image with text, inspector open, Image A11y clicked" />
 <em>Image has been scanned and the alt attribute now has text from image. Alt attribute text always starts with &ldquo;Possible text:&rdquo; due to the potential inaccuracies mentioned above.</em></p>
 
-<h2 id="what-s-next">What&rsquo;s next?</h2>
+<h2 id="what-s-next-1">What&rsquo;s next?</h2>
 
 <p>Work is not finished. The extension, and it can be called an extension is 90% (+/-) complete. There are several Github issues that will need to be resolved but many of these will most certainly need beyond the summer to get reviewed and approved.</p>
 </div>
