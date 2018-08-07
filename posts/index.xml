@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 09 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hamletv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Toronto Workweek</title>
+      <link>https://hamletv.github.io/posts/toronto-workweek/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hamletv.github.io/posts/toronto-workweek/</guid>
+      <description>Awesome (work)week in Toronto without the lights, sights, Blue Jays, CN Tower or Timmies.
+Toronto Workweek Until last week I had only heard of the term &amp;ldquo;workweek&amp;rdquo; mentioned on multiple occasions in my short time at Mozilla. Last week from very early Monday (4:30 am) to late Friday (11:45 pm) I had my work week in Toronto. Workweeks are an opportunity to do some work on a project, collaborate with fellow Mozillians, checkout the local office if there is one but also to an extent enjoy the location where you are during that week.</description>
+    </item>
     
     <item>
       <title>Demos, hurdles and demo hurdles</title>
