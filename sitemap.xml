@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>https://hamletv.github.io/posts/bubo-eye/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hamletv.github.io/posts/toronto-workweek/</loc>
     <lastmod>2018-08-06T00:00:00+00:00</lastmod>
   </url>
@@ -44,7 +49,25 @@
   </url>
   
   <url>
+    <loc>https://hamletv.github.io/tags/background-script/</loc>
+    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hamletv.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/content-script/</loc>
+    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/context-menu/</loc>
+    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +106,7 @@
   
   <url>
     <loc>https://hamletv.github.io/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -95,7 +118,7 @@
   
   <url>
     <loc>https://hamletv.github.io/posts/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -125,6 +148,12 @@
   <url>
     <loc>https://hamletv.github.io/tags/tesseract.js/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hamletv.github.io/tags/toronto/</loc>
+    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

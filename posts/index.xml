@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hamletv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bubo Eye</title>
+      <link>https://hamletv.github.io/posts/bubo-eye/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hamletv.github.io/posts/bubo-eye/</guid>
+      <description>We hope that Bubo Eye, called after the Bengalese eagle owl (Bubo bengalensis) and their great vision will help screen reader users to have enhanced accessibility with image content.
+Bubo Eye Bubo Eye is the new official name of the accessibility extension I&amp;rsquo;ve been working on, it is now a Mozilla Github repo. With Bubo Eye a screen reader user will be able to right click on an image that contains text and have that text within the image passed into the alt attribute.</description>
+    </item>
     
     <item>
       <title>Toronto Workweek</title>
@@ -32,7 +42,7 @@ Toronto Workweek Until last week I had only heard of the term &amp;ldquo;workwee
     </item>
     
     <item>
-      <title>Image A11y: proof of concept</title>
+      <title>Bubo Eye: proof of concept</title>
       <link>https://hamletv.github.io/posts/image-a11y-proof-of-concept/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
@@ -41,12 +51,12 @@ Toronto Workweek Until last week I had only heard of the term &amp;ldquo;workwee
     </item>
     
     <item>
-      <title>Image A11y: background, tesseract.js and scope</title>
+      <title>Bubo Eye: background, tesseract.js and scope</title>
       <link>https://hamletv.github.io/posts/ocr-with-tesseract/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/posts/ocr-with-tesseract/</guid>
-      <description>Origins of Image A11y Simply put, the object of the Image A11y project is to improve web accessibility by making the content (specifically text) within images accessible to screen readers. The idea of Image A11y came about during the December 2016 Mozilla All Hands conference in Austin, TX. While giving a demo of an accessibility project I had worked on to the Mozilla accessibility team I was introduced to Project Naptha.</description>
+      <description>Origins of Bubo Eye Simply put, the object of the Bubo Eye project is to improve web accessibility by making the content (specifically text) within images accessible to screen readers. The idea of Bubo Eye came about during the December 2016 Mozilla All Hands conference in Austin, TX. While giving a demo of an accessibility project I had worked on to the Mozilla accessibility team I was introduced to Project Naptha.</description>
     </item>
     
     <item>

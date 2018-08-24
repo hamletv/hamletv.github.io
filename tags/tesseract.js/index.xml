@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Image A11y: proof of concept</title>
+      <title>Bubo Eye: proof of concept</title>
       <link>https://hamletv.github.io/posts/image-a11y-proof-of-concept/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
@@ -22,12 +22,12 @@
     </item>
     
     <item>
-      <title>Image A11y: background, tesseract.js and scope</title>
+      <title>Bubo Eye: background, tesseract.js and scope</title>
       <link>https://hamletv.github.io/posts/ocr-with-tesseract/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hamletv.github.io/posts/ocr-with-tesseract/</guid>
-      <description>Origins of Image A11y Simply put, the object of the Image A11y project is to improve web accessibility by making the content (specifically text) within images accessible to screen readers. The idea of Image A11y came about during the December 2016 Mozilla All Hands conference in Austin, TX. While giving a demo of an accessibility project I had worked on to the Mozilla accessibility team I was introduced to Project Naptha.</description>
+      <description>Origins of Bubo Eye Simply put, the object of the Bubo Eye project is to improve web accessibility by making the content (specifically text) within images accessible to screen readers. The idea of Bubo Eye came about during the December 2016 Mozilla All Hands conference in Austin, TX. While giving a demo of an accessibility project I had worked on to the Mozilla accessibility team I was introduced to Project Naptha.</description>
     </item>
     
     <item>
