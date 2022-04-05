@@ -16,7 +16,7 @@ main {
     max-width: 750px;
 }
 
-.profile-pic {
+main img {
     height: 30%;
     width: 30%;
     border-radius: 50%;
@@ -25,8 +25,9 @@ main {
 }
 
 .name {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
+    color: #212121;
 }
 
 .about {
