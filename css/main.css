@@ -16,7 +16,7 @@ main {
     max-width: 750px;
 }
 
-.profile-pic img {
+.profile-pic {
     height: 30%;
     width: 30%;
     border-radius: 50%;
@@ -24,12 +24,12 @@ main {
     padding-bottom: 20px;
 }
 
-h1 {
+.name {
     font-size: 50px;
     font-weight: bold;
 }
 
-h4 {
+.about {
     padding: 15px;
 }
 
